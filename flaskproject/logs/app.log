@@ -1,0 +1,373 @@
+2018-01-20 12:58:06,488 INFO : create_app_text
+2018-01-20 12:58:06,493 INFO : create_app_text
+2018-01-20 12:58:06,501 INFO : create_app_text
+2018-01-20 12:58:06,509 INFO : create_app_text
+2018-01-20 12:58:59,644 INFO : create_app_text
+2018-01-20 12:58:59,752 INFO : create_app_text
+2018-01-20 12:58:59,785 INFO : create_app_text
+2018-01-20 12:58:59,855 INFO : create_app_text
+2018-01-20 13:12:47,033 INFO : create_app_text
+2018-01-20 13:12:47,078 INFO : create_app_text
+2018-01-20 13:12:47,159 INFO : create_app_text
+2018-01-20 13:12:47,266 INFO : create_app_text
+2018-01-20 13:15:07,760 INFO : create_app_text
+2018-01-20 13:15:07,773 INFO : create_app_text
+2018-01-20 13:15:07,785 INFO : create_app_text
+2018-01-20 13:15:07,837 INFO : create_app_text
+2018-01-20 13:18:59,110 INFO : create_app_text
+2018-01-20 13:18:59,211 INFO : create_app_text
+2018-01-20 13:18:59,307 INFO : create_app_text
+2018-01-20 13:18:59,341 INFO : create_app_text
+2018-01-20 13:25:52,916 INFO : create_app_text
+2018-01-20 13:25:52,917 INFO : create_app_text
+2018-01-20 13:25:52,919 INFO : create_app_text
+2018-01-20 13:25:52,924 INFO : create_app_text
+2018-01-20 13:26:25,825 INFO : check from 127.0.0.1
+2018-01-20 13:26:30,045 INFO : check from 127.0.0.1
+2018-01-20 13:26:30,225 INFO : check from 127.0.0.1
+2018-01-20 13:26:30,576 INFO : check from 127.0.0.1
+2018-01-20 13:26:30,742 INFO : check from 127.0.0.1
+2018-01-20 13:26:31,242 INFO : check from 127.0.0.1
+2018-01-20 13:26:32,097 INFO : check from 127.0.0.1
+2018-01-20 15:32:09,272 INFO : create_app_text
+2018-01-20 15:32:09,272 INFO : create_app_text
+2018-01-20 15:32:09,278 INFO : create_app_text
+2018-01-20 15:32:09,278 INFO : create_app_text
+2018-01-20 15:39:55,940 INFO : create_app_text
+2018-01-20 15:39:56,040 INFO : create_app_text
+2018-01-20 15:39:56,134 INFO : create_app_text
+2018-01-20 15:39:56,210 INFO : create_app_text
+2018-01-20 15:42:50,155 INFO : create_app_text
+2018-01-20 15:42:50,255 INFO : create_app_text
+2018-01-20 15:42:50,328 INFO : create_app_text
+2018-01-20 15:42:50,350 INFO : create_app_text
+2018-01-20 15:43:00,786 INFO : create_app_text
+2018-01-20 15:43:00,846 INFO : create_app_text
+2018-01-20 15:43:00,863 INFO : create_app_text
+2018-01-20 15:43:00,899 INFO : create_app_text
+2018-01-20 15:43:19,997 INFO : check from 127.0.0.1
+2018-01-20 15:43:46,116 INFO : check from 127.0.0.1
+2018-01-20 15:44:18,033 INFO : create_app_text
+2018-01-20 15:44:18,121 INFO : create_app_text
+2018-01-20 15:44:18,167 INFO : create_app_text
+2018-01-20 15:44:18,232 INFO : create_app_text
+2018-01-20 15:44:45,010 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-20 15:46:21,531 INFO : create_app_text
+2018-01-20 15:46:21,623 INFO : create_app_text
+2018-01-20 15:46:21,643 INFO : create_app_text
+2018-01-20 15:46:21,668 INFO : create_app_text
+2018-01-20 15:46:23,585 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-20 15:46:57,463 INFO : create_app_text
+2018-01-20 15:46:57,463 INFO : create_app_text
+2018-01-20 15:46:57,466 INFO : create_app_text
+2018-01-20 15:46:57,493 INFO : create_app_text
+2018-01-20 15:47:01,521 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-20 15:53:45,078 INFO : create_app_text
+2018-01-20 15:53:45,194 INFO : create_app_text
+2018-01-20 15:53:45,255 INFO : create_app_text
+2018-01-20 15:53:45,294 INFO : create_app_text
+2018-01-20 15:53:55,067 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-20 15:57:14,654 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-20 15:57:17,956 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-20 15:57:18,111 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-20 15:57:18,761 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-20 15:57:19,372 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-20 15:57:37,571 INFO : create_app_text
+2018-01-20 15:57:37,647 INFO : create_app_text
+2018-01-20 15:57:37,686 INFO : create_app_text
+2018-01-20 15:57:37,705 INFO : create_app_text
+2018-01-20 15:57:43,533 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-20 15:57:45,117 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-20 15:57:45,585 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-20 16:00:45,235 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-20 16:00:49,016 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-20 16:00:50,819 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
+2018-01-20 16:00:51,664 ERROR : Exception on /error/ [GET]
+Traceback (most recent call last):
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/lzp/Desktop/flaskproject/env/lib/python3.6/site-packages/flask_classy.py", line 200, in proxy
+    response = view(**request.view_args)
+  File "/home/lzp/Desktop/flaskproject/tigereye/api/misc.py", line 16, in error
+    1/0
+ZeroDivisionError: division by zero
